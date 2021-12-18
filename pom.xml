@@ -8,11 +8,11 @@
         <version>2.4.4</version>
         <relativePath/>
     </parent>
-    <groupId>com.silurongchuang</groupId>
-    <artifactId>common</artifactId>
+    <groupId>com.github.Haoke98</groupId>
+    <artifactId>universal-tool-kit</artifactId>
     <version>1.0.18-RELEASE</version>
-    <name>common</name>
-    <description>All common demo, variables and api will be here.</description>
+    <name>Universal Tool Kit</name>
+    <description>All tool kits for projects of any type.</description>
     <properties>
         <java.version>1.8</java.version>
         <skipTests>true</skipTests>
