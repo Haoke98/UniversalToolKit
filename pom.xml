@@ -8,7 +8,7 @@
         <version>2.4.4</version>
         <relativePath/>
     </parent>
-    <groupId>com.github.Haoke98</groupId>
+    <groupId>io.github.Haoke98</groupId>
     <artifactId>universal-tool-kit</artifactId>
     <version>1.0.19-RELEASE</version>
     <name>Universal Tool Kit</name>
