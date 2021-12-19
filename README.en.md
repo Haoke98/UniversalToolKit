@@ -32,9 +32,9 @@ mvn install
 #### Change pom.xml
 ```xml
 <dependency>
-    <groupId>com.github.Haoke98</groupId>
+    <groupId>io.github.Haoke98</groupId>
     <artifactId>universal-tool-kit</artifactId>
-    <version>1.0.18-RELEASE</version>
+    <version>1.0.19-RELEASE</version>
     <scope>compile</scope>
 </dependency>
 ```

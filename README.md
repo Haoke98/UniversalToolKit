@@ -1,5 +1,6 @@
-<div align="center"><img width="200" src="http://p.umiware.com/img/nav_logo.3ff5839f.png"/>
-<h1> 万能工具包 </h1>
+<div align="center">
+    <img width="200" src="http://p.umiware.com/img/nav_logo.3ff5839f.png"/>
+    <h1> 万能工具包 </h1>
 
 简体中文 |  [English](./README.en.md)
 
@@ -8,6 +9,9 @@
 </p>
 </div>
 
+
+[![Fork me on Gitee](https://gitee.com/sadam98/universal-tool-kit/widgets/widget_6.svg)](https://gitee.com/sadam98/universal-tool-kit)
+
 ## 分支
 
 | 名称                                                                                   | 简介     |
@@ -15,30 +19,35 @@
 | [🚀 master](https://gitee.com/sadam98/universal-tool-kit.git)                | 目前默认版本 |
 | [⚡ develop ](https://gitee.com/sadam98/universal-tool-kit.git/tree/develop/) |        |
 
-
 ## 🌱 使用教程
 
 ### 克隆：
+
 ```bash
 git clone https://gitee.com/sadam98/universal-tool-kit.git
 ```
+
 ### 打包：
+
 通过控制台（cmd）进入到克隆下来的项目控制台
+
 ```bash
 mvn clean
 mvn install
 ```
+
 ### 插入到别的maven项目：
+
 #### 修改pom.xml
+
 ```xml
 <dependency>
-    <groupId>com.github.Haoke98</groupId>
+    <groupId>io.github.Haoke98</groupId>
     <artifactId>universal-tool-kit</artifactId>
-    <version>1.0.18-RELEASE</version>
+    <version>1.0.19-RELEASE</version>
     <scope>compile</scope>
 </dependency>
 ```
-
 
 ## 感谢巨人
 
@@ -56,7 +65,6 @@ mvn install
 </a>
 
 ## 杰出贡献者
-
 
 <a href="https://gitee.com/sadam98" target="_blank">
   <img width="50px" style="border-radius:999px" src="https://portrait.gitee.com/uploads/avatars/user/1882/5648408_sadam98_1580052770.png!avatar200"/>
@@ -78,6 +86,7 @@ mvn install
 </table>
 
 ## 友情链接
+
 - [中小微企业信息通道](https://www.umiware.com/)
 
 - [已部署网站](https://p.xjip.info/)
