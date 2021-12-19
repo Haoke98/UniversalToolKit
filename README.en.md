@@ -1,5 +1,6 @@
-<div align="center"><img width="200" src="http://p.umiware.com/img/nav_logo.3ff5839f.png"/>
-<h1> Universal Tool Kit </h1>
+<div align="center">
+
+![Star](./static/logo.png)
 
 [简体中文](./README.md) |  English
 

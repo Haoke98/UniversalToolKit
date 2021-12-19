@@ -1,6 +1,6 @@
 <div align="center">
-    <img width="200" src="http://p.umiware.com/img/nav_logo.3ff5839f.png"/>
-    <h1> 万能工具包 </h1>
+
+![Star](./static/logo.png)
 
 简体中文 |  [English](./README.en.md)
 
