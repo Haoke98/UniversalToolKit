@@ -1,36 +1,86 @@
-# 万能工具包
+<div align="center"><img width="200" src="http://p.umiware.com/img/nav_logo.3ff5839f.png"/>
+<h1> Universal Tool Kit </h1>
 
-#### Description
-Java万能工具包，给各大maven项目提供技术支持。
+[简体中文](./README.md) |  English
 
-#### Software Architecture
-Software architecture description
+<p>
+When the mid autumn festival meets the national day, home and country collide with each other. As illuminated by the moonlight, they are all hometown, red flags are flying, and all are Chinese. The moon is our coin, and all are blessing you. May the five-star red flag fly high, and may the big country and small family be prosperous and prosperous.
+</p>
+</div>
 
-#### Installation
+## Branches
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+| Name                                                                                        | Brief introduction                                                   |
+| -------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [🚀 master](https://gitee.com/sadam98/universal-tool-kit.git)                | 目前默认版本 |
+| [⚡ develop ](https://gitee.com/sadam98/universal-tool-kit.git/tree/develop/) |        |
 
 
-#### Gitee Feature
+## 🌱 Instruction for use：
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### Get Source Code：
+```bash
+git clone https://gitee.com/sadam98/universal-tool-kit.git
+```
+### Packaging：
+come into the folder of project on consolelk
+```bash
+mvn clean
+mvn install
+```
+### Insert into another maven Project：
+#### Change pom.xml
+```xml
+<dependency>
+    <groupId>com.github.Haoke98</groupId>
+    <artifactId>universal-tool-kit</artifactId>
+    <version>1.0.18-RELEASE</version>
+    <scope>compile</scope>
+</dependency>
+```
+
+
+## Thanks to the open source project giant
+
+<a title="SpringBoot" href="https://spring.io/" target="_blank">
+<img width="200" height="100" src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"/>
+</a>
+<a title="Swagger" href="https://swagger.io/" target="_blank">
+<img width="200" height="100" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg"/>
+</a>
+<a title="ElasticSearch" href="https://www.elastic.co" target="_blank">
+<img width="200" height="100" src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/5bbdaacf63ed239936a7dd56/elastic-logo.svg"/>
+</a>
+<a title="Redis" href="https://redis.io/" target="_blank">
+<img width="200" height="100" src="https://redis.io/images/redis-white.png"/>
+</a>
+
+## Outstanding contributor
+
+<a href="https://gitee.com/sadam98" target="_blank">
+  <img width="50px" style="border-radius:999px" src="https://portrait.gitee.com/uploads/avatars/user/1882/5648408_sadam98_1580052770.png!avatar200"/>
+</a>
+
+## Contact us
+
+- If you have any problems during secondary development or deployment, you can contact us at any time.
+- QQ： 1903249375
+- Wechat：sadam190
+- Tel：15899198230
+
+<table>
+<tr>
+<td>
+<img width="200px" src="http://59.110.225.84/static/sdm/qr_qq.png">
+</td>
+</tr>
+</table>
+
+## Links
+- [中小微企业信息通道](https://www.umiware.com/)
+
+- [已部署网站](https://p.xjip.info/)
+
+- [商汇通（测试）](https://sh.umiware.com/)
+
+- [商汇通（正式）](https://sh.xjip.info/)
