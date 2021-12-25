@@ -2,7 +2,7 @@
 
 ![Star](./static/logo.png)
 
-简体中文 |  [English](./README.md)
+[简体中文](./README.cn.md) |  English
 
 <p>
 This is a universal tool that can help develop back-end projects 🔧 box 🧰， It has strong compatibility and various functions. Having it is twice the result with half the effort.

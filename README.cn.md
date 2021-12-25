@@ -2,7 +2,7 @@
 
 ![Star](./static/logo.png)
 
-[简体中文](./README.cn.md) |  English
+简体中文 |  [English](./README.md)
 
 <p>
 这是一款能够协助开发后端项目的万能工具🔧箱🧰，兼容性极强，功能多样，拥有它是你的项目事半功倍。
