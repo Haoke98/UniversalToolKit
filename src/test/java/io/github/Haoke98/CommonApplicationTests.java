@@ -1,15 +1,12 @@
 package io.github.Haoke98;
 
 import io.github.Haoke98.util.desensitizer.NameUtils;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class CommonApplicationTests {
     public static void main(String[] args) {
-        String name = "工作人生";
-
-        String nowName = NameUtils.userName(name);
-        System.out.println(nowName);
 
 
 

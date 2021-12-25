@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.Haoke98</groupId>
     <artifactId>universal-tool-kit</artifactId>
-    <version>1.0.20-RELEASE</version>
+    <version>1.0.21-RELEASE</version>
     <name>Universal Tool Kit</name>
     <description>All tool kits for projects of any type.</description>
     <properties>

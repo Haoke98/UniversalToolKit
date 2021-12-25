@@ -1,7 +1,9 @@
 package io.github.Haoke98;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -18,6 +20,8 @@ public class APIConfig {
      * 接口版本
      */
     public static String VERSION = "你开心了吗";
+    @Value("${api.version}")
+    private String _version;
     /**
      * UTF-8 字符集
      */
@@ -32,12 +36,8 @@ public class APIConfig {
      * 通用失败标识
      */
     public static final int FAIL = 1;
-    public static final String HIGHLIGHT_TAG_PRE = "<em>";
-    public static final String HIGHLIGHT_TAG_POST = "</em>";
 
 
-    static {
-    }
 
     /**
      * 解决properties文件中的变量在静态文件中无法加载的问题（注：只能用@Autowired注解来实例化才能加载，否则只能用如下方法）
@@ -46,19 +46,10 @@ public class APIConfig {
      * @lastModifiedBy 萨达木(sadam)
      * @lastModifiedDate 2021/12/1 17:58
      */
-    private static void init() {
-        Properties properties = new Properties();
-        try {
-            InputStream is = APIConfig.class.getClassLoader().getResourceAsStream("application.properties");
-            properties.load(is);
-            is.close();
-            VERSION = properties.getProperty("VERSION");
+    @PostConstruct
+    void init() {
+            VERSION = this._version;
             System.out.println("API Version: " + VERSION);
-//            HTTP.UTF_8
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     @Override
